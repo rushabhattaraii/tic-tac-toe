@@ -10,13 +10,18 @@ body{
 }
 
 .container{
-    height:50vh;
+    height:70vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
 
 }
 
 .game{
-    height:40vmin;
-    width:40vmin;
+    height:60vmin;
+    width:60vmin;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -25,7 +30,22 @@ body{
 }
 
 .box{
-    height:13vmin;
-    width: 13vmin;
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem #667BC6
+    
+
 
 } 
+
+.reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #B1AFFF;
+    color:white;
+    border-radius: 1rem;
+    border:none;
+
+}
